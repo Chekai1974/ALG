@@ -1,0 +1,12 @@
+Recursion метод
+function factorial(n, res){
+    res = res || 1;
+    if(!n){
+        return res;
+    }else{
+        return factorial(n-1, res*n);
+    }
+}
+
+(можно просто через метод) 
+alert( factorial(5) ); // 120

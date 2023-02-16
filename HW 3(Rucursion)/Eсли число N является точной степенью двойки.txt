@@ -1,0 +1,11 @@
+Recursion метод
+n = +prompt()
+i = 1
+while (i < n){
+    i = i * 2
+}
+if (i === n){
+    console.log('YES')
+}else{
+    console.log('NO')
+}
